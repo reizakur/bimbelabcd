@@ -121,7 +121,7 @@ while ($row= mysqli_fetch_array($sql)){
             <div class="content"> 
               <h2>MISI</h2>
               <p>
-              Membangun generasi muda belajar mandiri sepanjang hayat yang diharapkan mampu belajar dimana pun dan kapan pun.</p>
+              Membangun gesnerasi muda belajar mandiri sepanjang hayat yang diharapkan mampu belajar dimana pun dan kapan pun.</p>
               <div class="text-center text-lg-start">
               </div>
             </div>

@@ -1,6 +1,6 @@
 <?php include ('awalan.php');?>
-<?php $id_kelas=$_GET['id_kelas'];
-$sql= mysqli_query($con,"SELECT * FROM jadwal WHERE id_kelas='$id_kelas'");
+<?php $id_jadwal=$_GET['id_jadwal'];
+$sql= mysqli_query($con,"SELECT * FROM jadwal WHERE id_jadwal='$id_jadwal'");
      $tampil= mysqli_fetch_array($sql);
     
      $hari = $tampil['hari'];
@@ -167,14 +167,15 @@ $sql= mysqli_query($con,"SELECT * FROM jadwal WHERE id_kelas='$id_kelas'");
                                             </div>   
                                             <div class="form-group">
                                                 <label for="cc-payment" class="control-label mb-1">Jam</label>
-                                                <input id="cc-pament" name="jam" type="text" placeholder="06:00-12:00" value="<?php echo $jam ;?>666" class="form-control" aria-required="true" aria-invalid="false">
+                                                <input id="cc-pament" name="jam" type="text" placeholder="06:00-12:00" value="<?php echo $jam ;?>" class="form-control" aria-required="true" aria-invalid="false">
                                             </div>
                  
-                                         
+                                         <input type="text" name="id_jadwal" value="<?php echo $id_jadwal ;?>"></input>
                                          
                                            
                                             <div class="form-group">
                                                 <label for="cc-number" class="control-label mb-1">Harga</label>
+                                                <
                                                 <input id="cc-number" name="harga" type="tel" value="<?php echo $harga ;?>" class="form-control cc-number identified visa"  data-val="true"
                                                     data-val-required="Please enter the card number" data-val-cc-number="Please enter a valid card number"
                                                     autocomplete="cc-number">

@@ -221,9 +221,9 @@ while ($row= mysqli_fetch_array($sql)){
                                                 <td><?php echo $row ['harga']?></td>
                                                
                                                 <td>
-                                        <a href="hapus_jenis.php?id_kelas=<?php echo $row ['id_kelas']?>"><button type="submit" class="btn btn-primary btn-sm">
+                                        <a href="_hapus_jadwal.php?id_jadwal=<?php echo $row ['id_jadwal']?>"><button type="submit" class="btn btn-primary btn-sm">
                                             <i class="fa fa-trash"></i> Hapus
-                                        </button></a>  ||                                        <a href="_edit_jadwal.php?id_kelas=<?php echo $row ['id_kelas']?>"><button type="submit" class="btn btn-primary btn-sm">
+                                        </button></a>  ||                                        <a href="_edit_jadwal.php?id_jadwal=<?php echo $row ['id_jadwal']?>"><button type="submit" class="btn btn-primary btn-sm">
                                             <i class="fa fa-pencil"></i> Edit
                                         </button></a></td>
                                             </tr>

@@ -141,7 +141,7 @@
 $sql=mysqli_query($con,"SELECT * FROM galeri");
 if(isset($_POST['qcari'])){
   $qcari = $_POST['qcari'];
-$sql=mysqli_query($con,"SELECT * FROM galeri where id_jenis like 
+$sql=mysqli_query($con,"SELECT * FROM galeri where id_galeri like 
   '%$qcari%' or nama like '%$qcari%'");
 }
 $nomor = 0;
@@ -153,7 +153,7 @@ while ($row= mysqli_fetch_array($sql)){
                                                 <td><?php echo $nomor?></td>
                                                 <td><?php echo $row ['judul']?></td>
                                                 <td>
-                                        <a href="hapus_jenis.php?id_jenis=<?php echo $row ['id_jenis']?>"><button type="submit" class="btn btn-primary btn-sm">
+                                        <a href="hapus_jenis.php?id_galeri=<?php echo $row ['id_galeri']?>"><button type="submit" class="btn btn-primary btn-sm">
                                             <i class="fa fa-trash"></i> Hapus
                                         </button></a></td>
                                             </tr>

@@ -83,7 +83,7 @@ while ($row= mysqli_fetch_array($sql)){
 
   
  <!-- ======= Hero Section ======= -->
-  <main id="main">
+ <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
 
@@ -92,17 +92,14 @@ while ($row= mysqli_fetch_array($sql)){
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
-              <h3>Who We Are</h3>
               <h2>VISI</h2>
               <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+              Menumbuhkan minat belajar anak sejak usia dini,membimbing,mengarahkan dan memotivasi agar anak mempunyai minat belajar
               </p>
-              <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h2>MISI</h2>
+              <p>
+              Membangun gesnerasi muda belajar mandiri sepanjang hayat yang diharapkan mampu belajar dimana pun dan kapan pun.
+              </p>
             </div>
           </div>
 
@@ -114,7 +111,6 @@ while ($row= mysqli_fetch_array($sql)){
       </div>
 
     </section><!-- End About Section -->
-
     <!-- ======= Values Section ======= -->
     <!-- ======= Counts Section ======= -->
      

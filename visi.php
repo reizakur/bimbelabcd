@@ -139,7 +139,7 @@ while ($row= mysqli_fetch_array($sql)){
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" alt="">
-              <span>BimbelAbCd</span>
+              <span>Bimbel AbCd</span>
             </a>
              
              

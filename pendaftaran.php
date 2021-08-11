@@ -46,7 +46,7 @@ include ('sistem/koneksi.php');
 
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/bimbelabcd.jpeg" alt="">
-        <span>BimbelAbCd</span>
+        <span>BimbelaBcD</span>
       </a>
 
       <nav id="navbar" class="navbar">

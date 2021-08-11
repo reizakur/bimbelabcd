@@ -55,14 +55,14 @@ include ('sistem/koneksi.php');
 
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/bimbelabcd.jpeg" alt="">
-        <span>BimbelAbCd</span>
+        <span>BimbelaBcD</span>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li class="dropdown"><a href="#">Profil</a>
-        <ul>  <li><a href="visi.php">Misi</a></li>
+        <ul>  <li><a href="visi.php">Visi & Misi</a></li>
           <li><a href="galeri.php">Galeri</a></li></li></ul>
           <li class="dropdown"><a href="#">Pendaftaran</a>
         <ul>  <?php 

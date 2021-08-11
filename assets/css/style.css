@@ -27,7 +27,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Nunito", sans-serif;
 }
 
@@ -217,7 +222,8 @@ section {
   position: relative;
 }
 
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -230,13 +236,17 @@ section {
   transition: 0.3s;
 }
 
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #4154f1;
 }
 
@@ -284,7 +294,9 @@ section {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #4154f1;
 }
 
@@ -378,7 +390,9 @@ section {
   color: #012970;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #4154f1;
 }
 
@@ -410,7 +424,9 @@ section {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #4154f1;
 }
 
@@ -903,7 +919,9 @@ section {
   background: #f51f9c;
 }
 
-.services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
+.services .service-box:hover h3,
+.services .service-box:hover p,
+.services .service-box:hover .read-more {
   color: #fff;
 }
 
@@ -1068,7 +1086,8 @@ section {
   border: 1px solid #fff;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #4154f1;
   border-color: #4154f1;
 }
@@ -1230,7 +1249,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1238,7 +1260,10 @@ section {
   border: 1px solid #4154f1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #4154f1;
 }
 
@@ -1347,7 +1372,7 @@ section {
 }
 
 .testimonials .swiper-slide {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 @media (max-width: 1199px) {
@@ -1558,41 +1583,41 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Kontak
 --------------------------------------------------------------*/
-.contact .info-box {
+.Kontak .info-box {
   color: #444444;
   background: #fafbff;
   padding: 30px;
 }
 
-.contact .info-box i {
+.Kontak .info-box i {
   font-size: 38px;
   line-height: 0;
   color: #4154f1;
 }
 
-.contact .info-box h3 {
+.Kontak .info-box h3 {
   font-size: 20px;
   color: #012970;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
 
-.contact .info-box p {
+.Kontak .info-box p {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.contact .php-email-form {
+.Kontak .php-email-form {
   background: #fafbff;
   padding: 30px;
   height: 100%;
 }
 
-.contact .php-email-form .error-message {
+.Kontak .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1602,7 +1627,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .sent-message {
+.Kontak .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1612,7 +1637,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.Kontak .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
@@ -1620,7 +1645,7 @@ section {
   margin-bottom: 24px;
 }
 
-.contact .php-email-form .loading:before {
+.Kontak .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1633,26 +1658,28 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.Kontak .php-email-form input,
+.Kontak .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 0;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.Kontak .php-email-form input:focus,
+.Kontak .php-email-form textarea:focus {
   border-color: #4154f1;
 }
 
-.contact .php-email-form input {
+.Kontak .php-email-form input {
   padding: 10px 15px;
 }
 
-.contact .php-email-form textarea {
+.Kontak .php-email-form textarea {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.Kontak .php-email-form button[type="submit"] {
   background: #4154f1;
   border: 0;
   padding: 10px 30px;
@@ -1661,7 +1688,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.Kontak .php-email-form button[type="submit"]:hover {
   background: #5969f3;
 }
 
@@ -1797,7 +1824,7 @@ section {
 }
 
 .blog .entry .entry-content blockquote::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -2032,11 +2059,13 @@ section {
   justify-content: center;
 }
 
-.blog .blog-pagination li.active, .blog .blog-pagination li:hover {
+.blog .blog-pagination li.active,
+.blog .blog-pagination li:hover {
   background: #4154f1;
 }
 
-.blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
+.blog .blog-pagination li.active a,
+.blog .blog-pagination li:hover a {
   color: #fff;
 }
 
@@ -2352,7 +2381,7 @@ section {
   color: #4154f1;
 }
 
-.footer .footer-top .footer-contact p {
+.footer .footer-top .footer-Kontak p {
   line-height: 26px;
 }
 

@@ -69,7 +69,7 @@ while ($row= mysqli_fetch_array($sql)){
 ;?>
               <li><a href="kelas.php?id_kelas=<?php echo $row ['id_kelas']?>"><?php echo $row['kelas']?></a></li></li>
        <?php } ?></ul> 
-          <li><a class="nav-link scrollto" href="kontak.php">Contact</a></li>
+          <li><a class="nav-link scrollto" href="kontak.php">Kontak</a></li>
           <li><a class="getstarted scrollto" href="login_v14/index.php">LOGIN</a></li>
         
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -84,8 +84,8 @@ while ($row= mysqli_fetch_array($sql)){
  
     <!-- ======= Team Section ======= -->
      
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- ======= Kontak Section ======= -->
+    <section id="Kontak" class="Kontak">
 
       <div class="container" data-aos="fade-up">
 
@@ -136,7 +136,7 @@ while ($row= mysqli_fetch_array($sql)){
 
       </div>
 
-    </section><!-- End Contact Section -->
+    </section><!-- End Kontak Section -->
 
   </main><!-- End #main -->
 

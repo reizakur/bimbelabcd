@@ -70,7 +70,7 @@ while ($row= mysqli_fetch_array($sql)){
 ;?>
               <li><a href="kelas.php?id_kelas=<?php echo $row ['id_kelas']?>"><?php echo $row['kelas']?></a></li></li></ul> 
        <?php } ?></UL>
-          <li><a class="nav-link scrollto" href="kontak.php">Contact</a></li>
+          <li><a class="nav-link scrollto" href="kontak.php">Kontak</a></li>
           <li><a class="getstarted scrollto" href="login_v14/index.php">LOGIN</a></li>
         
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -84,8 +84,8 @@ while ($row= mysqli_fetch_array($sql)){
  
     <!-- ======= Team Section ======= -->
      
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- ======= Kontak Section ======= -->
+    <section id="Kontak" class="Kontak">
 
       <div class="container" data-aos="fade-up">
 
@@ -99,7 +99,7 @@ while ($row= mysqli_fetch_array($sql)){
         
 
           <div class="col-lg-12">
-            <form action="forms/contact.php" method="post" class="php-email-form">
+            <form action="forms/Kontak.php" method="post" class="php-email-form">
               <div class="row gy-4">
 
                 <div class="col-md-12">
@@ -142,7 +142,7 @@ while ($row= mysqli_fetch_array($sql)){
 
       </div>
 
-    </section><!-- End Contact Section -->
+    </section><!-- End Kontak Section -->
 
   </main><!-- End #main -->
 
@@ -156,7 +156,7 @@ while ($row= mysqli_fetch_array($sql)){
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/BimbelAbCd-bootstrap-startup-template/ -->
+        <!-- Purchase the pro version with working PHP/AJAX Kontak form: https://bootstrapmade.com/BimbelAbCd-bootstrap-startup-template/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
